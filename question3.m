@@ -24,7 +24,10 @@ for j=2:10
     u= u1;
 end
 
-plot(t, u1)
+plot(x, u1(:,10))
+xlabel("x")
+ylabel("u")
+title("u vs x at t=1s")
 
 
  
